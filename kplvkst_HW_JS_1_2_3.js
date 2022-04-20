@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html>
-<body>
-    <script>
-let age_2 = 18
+    // let age_1 = "62" 
+    let age_2 = 18
     let age_3 = 60
 
 
 const checkAge =  function (age) {
-    age = +age
     if (age == Number(age)) {
 
         if (age < age_2) {
@@ -27,12 +23,7 @@ const checkAge =  function (age) {
 checkAge('17')
 checkAge('18')
 checkAge('61')
-checkAge('fkd')
-checkAge("47")
+checkAge('rgr')
+checkAge("2e1")
 let userAge = prompt("Сколько тебе лет?")
 checkAge(userAge)
-    
-
-</script>
-</body>
-</html>
