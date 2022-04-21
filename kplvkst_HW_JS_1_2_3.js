@@ -7,23 +7,26 @@ const checkAge =  function (age) {
     if (age == Number(age)) {
 
         if (age < age_2) {
-        console.log("You don't have access cause your age is " + age + ". It's less than " +  age_2)
+        alert("You don't have access cause your age is " + age + ". It's less than " +  age_2)
         }
         else if (age >= age_2 && age < age_3) {
-        console.log("Welcome!")
+        alert("Welcome!")
         }
-        else if (age >= age_3) {
-        console.log("Keep calm and look Culture channel")
+        else if (age > age_3) {
+        alert("Keep calm and look Culture channel")
+        }
+        else {
+            alert("Technical work")
         }
     } else {
-        console.log("Error")
+        alert("Error")
     }
     }    
 
-checkAge('17')
-checkAge('18')
-checkAge('61')
-checkAge('rgr')
-checkAge("2e1")
+// checkAge('17')
+// checkAge('18')
+// checkAge('60')
+// checkAge('rgr')
+// checkAge("2e1")
 let userAge = prompt("Сколько тебе лет?")
 checkAge(userAge)
