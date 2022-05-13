@@ -42,3 +42,4 @@ if (typeof(age_1) == "number") {
 } else {
     console.log("Technical work")
 }
+
